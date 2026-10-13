@@ -1,0 +1,14 @@
+# MIMIC-derived data stays local (PhysioNet data use agreement)
+cache/
+figures/
+*.csv
+*.csv.gz
+*.parquet
+*.npy
+
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# local build tooling, not part of the submission
+*.py
